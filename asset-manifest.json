@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Dima-Maximovski-17-09-2020/static/css/main.5de35e8d.chunk.css",
-    "main.js": "/Dima-Maximovski-17-09-2020/static/js/main.5121d465.chunk.js",
-    "main.js.map": "/Dima-Maximovski-17-09-2020/static/js/main.5121d465.chunk.js.map",
+    "main.js": "/Dima-Maximovski-17-09-2020/static/js/main.2a9dd6bc.chunk.js",
+    "main.js.map": "/Dima-Maximovski-17-09-2020/static/js/main.2a9dd6bc.chunk.js.map",
     "runtime-main.js": "/Dima-Maximovski-17-09-2020/static/js/runtime-main.a700c0ab.js",
     "runtime-main.js.map": "/Dima-Maximovski-17-09-2020/static/js/runtime-main.a700c0ab.js.map",
     "static/js/2.139b20c2.chunk.js": "/Dima-Maximovski-17-09-2020/static/js/2.139b20c2.chunk.js",
     "static/js/2.139b20c2.chunk.js.map": "/Dima-Maximovski-17-09-2020/static/js/2.139b20c2.chunk.js.map",
     "index.html": "/Dima-Maximovski-17-09-2020/index.html",
-    "precache-manifest.aa4137b3280b82796019751c16572a29.js": "/Dima-Maximovski-17-09-2020/precache-manifest.aa4137b3280b82796019751c16572a29.js",
+    "precache-manifest.0671ed13d6b6134244f579709351a9be.js": "/Dima-Maximovski-17-09-2020/precache-manifest.0671ed13d6b6134244f579709351a9be.js",
     "service-worker.js": "/Dima-Maximovski-17-09-2020/service-worker.js",
     "static/css/main.5de35e8d.chunk.css.map": "/Dima-Maximovski-17-09-2020/static/css/main.5de35e8d.chunk.css.map",
     "static/js/2.139b20c2.chunk.js.LICENSE.txt": "/Dima-Maximovski-17-09-2020/static/js/2.139b20c2.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.a700c0ab.js",
     "static/js/2.139b20c2.chunk.js",
     "static/css/main.5de35e8d.chunk.css",
-    "static/js/main.5121d465.chunk.js"
+    "static/js/main.2a9dd6bc.chunk.js"
   ]
 }
