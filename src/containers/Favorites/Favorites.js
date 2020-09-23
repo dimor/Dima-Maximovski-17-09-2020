@@ -22,6 +22,7 @@ class Favorites extends Component {
     handleClick = (id, name, history, updateCityId) => {
         updateCityId(id, name)
         history.push('/')
+        
     }
 
     render() {
