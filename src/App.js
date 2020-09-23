@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Layout>
-      <BrowserRouter basename='/process.env.PUBLIC_URL'>
+      <BrowserRouter basename='/Dima-Maximovski-17-09-2020'>
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/favorites" component={Favorites} />
