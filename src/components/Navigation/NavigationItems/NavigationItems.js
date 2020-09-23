@@ -11,7 +11,7 @@ const navigationItems = (props) => (
 
         <ul className={classes.NavigationItems} onClick={props.clicked}>
             <NavigationItem link={`/`} exact>Home</NavigationItem>
-            <NavigationItem link={`/favorites`} >Favorites</NavigationItem>
+            <NavigationItem link={`${process.env.PUBLIC_URL}/favorites`} >Favorites</NavigationItem>
             <div className={classes.set}>
                 <button onClick={props.darkclicked}>
                     <FontAwesomeIcon  className={classes.Settings}
