@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Dima-Maximovski-17-09-2020/precache-manifest.ad67517cfea731bb6ab8178878660e5c.js"
+  "/Dima-Maximovski-17-09-2020/precache-manifest.7da02088be94597285a574d181205502.js"
 );
 
 self.addEventListener('message', (event) => {
