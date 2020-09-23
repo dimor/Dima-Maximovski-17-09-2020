@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.93ffb9c1.chunk.css",
-    "main.js": "/static/js/main.74eb07f4.chunk.js",
-    "main.js.map": "/static/js/main.74eb07f4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7ecb0647.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7ecb0647.js.map",
-    "static/js/2.ac65a9c9.chunk.js": "/static/js/2.ac65a9c9.chunk.js",
-    "static/js/2.ac65a9c9.chunk.js.map": "/static/js/2.ac65a9c9.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.905df91680eb3187fc1a9953a61256ef.js": "/precache-manifest.905df91680eb3187fc1a9953a61256ef.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.93ffb9c1.chunk.css.map": "/static/css/main.93ffb9c1.chunk.css.map",
-    "static/js/2.ac65a9c9.chunk.js.LICENSE.txt": "/static/js/2.ac65a9c9.chunk.js.LICENSE.txt",
-    "static/media/search_icon.png": "/static/media/search_icon.fd14cef7.png"
+    "main.css": "/Dima-Maximovski-17-09-2020/static/css/main.93ffb9c1.chunk.css",
+    "main.js": "/Dima-Maximovski-17-09-2020/static/js/main.9f8026da.chunk.js",
+    "main.js.map": "/Dima-Maximovski-17-09-2020/static/js/main.9f8026da.chunk.js.map",
+    "runtime-main.js": "/Dima-Maximovski-17-09-2020/static/js/runtime-main.a700c0ab.js",
+    "runtime-main.js.map": "/Dima-Maximovski-17-09-2020/static/js/runtime-main.a700c0ab.js.map",
+    "static/js/2.ac65a9c9.chunk.js": "/Dima-Maximovski-17-09-2020/static/js/2.ac65a9c9.chunk.js",
+    "static/js/2.ac65a9c9.chunk.js.map": "/Dima-Maximovski-17-09-2020/static/js/2.ac65a9c9.chunk.js.map",
+    "index.html": "/Dima-Maximovski-17-09-2020/index.html",
+    "precache-manifest.5c7680ffdff53d9569fd0ceb0f56597f.js": "/Dima-Maximovski-17-09-2020/precache-manifest.5c7680ffdff53d9569fd0ceb0f56597f.js",
+    "service-worker.js": "/Dima-Maximovski-17-09-2020/service-worker.js",
+    "static/css/main.93ffb9c1.chunk.css.map": "/Dima-Maximovski-17-09-2020/static/css/main.93ffb9c1.chunk.css.map",
+    "static/js/2.ac65a9c9.chunk.js.LICENSE.txt": "/Dima-Maximovski-17-09-2020/static/js/2.ac65a9c9.chunk.js.LICENSE.txt",
+    "static/media/search_icon.png": "/Dima-Maximovski-17-09-2020/static/media/search_icon.fd14cef7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7ecb0647.js",
+    "static/js/runtime-main.a700c0ab.js",
     "static/js/2.ac65a9c9.chunk.js",
     "static/css/main.93ffb9c1.chunk.css",
-    "static/js/main.74eb07f4.chunk.js"
+    "static/js/main.9f8026da.chunk.js"
   ]
 }
