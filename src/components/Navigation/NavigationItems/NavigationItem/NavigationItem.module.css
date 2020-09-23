@@ -8,7 +8,7 @@
 
     }
     
-    .NavigationItem a{
+    .NavigationItem p{
         color:green;
         text-decoration:none;
         width: 100%;
@@ -17,9 +17,9 @@
     
     }
     
-    .NavigationItem a:hover,
-    .NavigationItem a:active,
-    .NavigationItem a.active{
+    .NavigationItem p:hover,
+    .NavigationItem p:active,
+    .NavigationItem p.active{
      
     color:green;
     
@@ -37,7 +37,7 @@
         
         }
         
-        .NavigationItem a{
+        .NavigationItem p{
             color:white;
             height: 100%;
             padding:16px 10px;
@@ -46,9 +46,8 @@
         
         }
         
-        .NavigationItem a:hover,
-        .NavigationItem a:active,
-        .NavigationItem a.active{
+        .NavigationItem p:hover,
+        .NavigationItem p:active{
          
         background-color:white;
         border-bottom:4px solid rgb(5, 79, 92);

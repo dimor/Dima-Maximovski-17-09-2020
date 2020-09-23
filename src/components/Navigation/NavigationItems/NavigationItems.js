@@ -10,8 +10,8 @@ const navigationItems = (props) => (
 
 
         <ul className={classes.NavigationItems} onClick={props.clicked}>
-            <NavigationItem link={`${process.env.PUBLIC_URL}/#/`} exact>Home</NavigationItem>
-            <NavigationItem link={`${process.env.PUBLIC_URL}/#/favorites`} >Favorites</NavigationItem>
+            <NavigationItem link={`/`} exact>Home</NavigationItem>
+            <NavigationItem link={`/favorites`} >Favorites</NavigationItem>
             <div className={classes.set}>
                 <button onClick={props.darkclicked}>
                     <FontAwesomeIcon  className={classes.Settings}
@@ -35,4 +35,4 @@ const navigationItems = (props) => (
     </React.Fragment>
 );
 
-export default navigationItems;
+export default  navigationItems;
