@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d8da07b5b7e9b79898dc59bc83cdbbc",
+    "revision": "23b85e855a446f13ffe1c662a3c6d6b8",
     "url": "/Dima-Maximovski-17-09-2020/index.html"
   },
   {
-    "revision": "0d6ef89139d7f8db61a1",
+    "revision": "e61174f5aa1be700d0b8",
     "url": "/Dima-Maximovski-17-09-2020/static/css/main.93ffb9c1.chunk.css"
   },
   {
-    "revision": "0aed576db7ed3f35bbd9",
-    "url": "/Dima-Maximovski-17-09-2020/static/js/2.139b20c2.chunk.js"
+    "revision": "0c0fd48c7791bb5b893f",
+    "url": "/Dima-Maximovski-17-09-2020/static/js/2.d392b18b.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Dima-Maximovski-17-09-2020/static/js/2.139b20c2.chunk.js.LICENSE.txt"
+    "url": "/Dima-Maximovski-17-09-2020/static/js/2.d392b18b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d6ef89139d7f8db61a1",
-    "url": "/Dima-Maximovski-17-09-2020/static/js/main.c19814b2.chunk.js"
+    "revision": "e61174f5aa1be700d0b8",
+    "url": "/Dima-Maximovski-17-09-2020/static/js/main.83c128b3.chunk.js"
   },
   {
     "revision": "892aa9b53efc19c8142f",
