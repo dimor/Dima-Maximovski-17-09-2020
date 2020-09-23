@@ -1,22 +1,20 @@
 import React from 'react';
 import classes from './NavigationItem.module.css';
-import { NavLink ,withRouter } from 'react-router-dom';
+import { NavLink  } from 'react-router-dom';
 
 
 
 const navigationItem = (props) => {
 
-    const handleClick=(link)=>{
-        props.history.push(link);
-    }
+
 
     return(
     <li className={classes.NavigationItem}>
-        <p 
-            onClick={()=>handleClick(props.link)}
+        <NavLink 
+            to={props.link}
             exact={props.exact}
-            activeClassName={classes.active}>{props.children}</p>
+            activeClassName={classes.active}>{props.children}</NavLink>
     </li>
 )};
 
-export default withRouter(navigationItem);
+export default navigationItem;
