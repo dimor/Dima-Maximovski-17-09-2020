@@ -12,9 +12,9 @@ export const defaults = {
 
 export const URLS = {
         iconurl:'https://developer.accuweather.com/sites/default/files/',
-        autocomplete: 'http://dataservice.accuweather.com/locations/v1/cities/autocomplete',
-        currentcity: 'http://dataservice.accuweather.com/currentconditions/v1/',
-        forecast:'http://dataservice.accuweather.com/forecasts/v1/daily/5day/',
-        currentlocation:'http://dataservice.accuweather.com/locations/v1/cities/geoposition/search'
+        autocomplete: 'https://dataservice.accuweather.com/locations/v1/cities/autocomplete',
+        currentcity: 'https://dataservice.accuweather.com/currentconditions/v1/',
+        forecast:'https://dataservice.accuweather.com/forecasts/v1/daily/5day/',
+        currentlocation:'https://dataservice.accuweather.com/locations/v1/cities/geoposition/search'
 }
 
