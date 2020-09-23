@@ -1,4 +1,4 @@
-export const API = '0pIxCnk0AfvLOQAbyC7jQAVP6PxyGGub';
+export const API = 'kYnA9UxrrwysLX6ek68bp6JkndzajOG6';
 
 
 let location_id = sessionStorage.getItem('location_id')
