@@ -38,6 +38,7 @@ class Favorites extends Component {
                 <ForecastItem
                     key={i + city.EpochTime}
                     city={city.name}
+                    id={city.id}
                     degree={convertDegree(city.Temperature.Metric.Value, isCelcius)}
                     day={city.WeatherText}
                     click={() => this.handleClick(city.id, city.name, history, updateCityId)} />

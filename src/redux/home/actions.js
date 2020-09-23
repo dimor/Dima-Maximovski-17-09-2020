@@ -1,4 +1,4 @@
-import { CHANGE_SEARCH_FIELD, UPDATE_CITY_NAME, UPDATE_CITY_ID } from './actionTypes';
+import { CHANGE_SEARCH_FIELD, UPDATE_CITY_NAME, UPDATE_CITY_ID,THROW_ERROR} from './actionTypes';
 import { RequestSearchField } from './actionTypes';
 import { RequestCityById,
          SetFavoriteCity,
@@ -29,6 +29,12 @@ const asyncLocalStorage = {
 
 
 
+export const throwError = (error) => ({
+
+        type: THROW_ERROR,
+        payload: error
+
+})
 
 export const setSearchField = (input) => ({
 

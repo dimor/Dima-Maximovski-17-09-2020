@@ -7,7 +7,7 @@ import FavoriteButton from '../../components/FavoriteButton/FavoriteButton';
 import Forecast from '../../components/Forecast/Forecast';
 import { connect } from 'react-redux';
 import Spinner from '../../components/Spinner/Spinner';
-import { requestCityById, getFavoriteCityById ,requestLocation} from '../../redux/home/actions';
+import { requestCityById, getFavoriteCityById, requestLocation } from '../../redux/home/actions';
 import ErrorBoundary from '../../containers/ErrorHandler/ErrorBoundary'
 
 
@@ -18,24 +18,28 @@ class Home extends Component {
 
   componentDidMount() {
 
+    // Check if current location already saved inside sessionStorage
 
-    const {onRequestLocation, onRequestCityById, name, id } = this.props;
+    const { onRequestLocation, onRequestCityById, name, id } = this.props;
 
     let location_id = sessionStorage.getItem('location_id')
     let location_name = sessionStorage.getItem('location_name')
 
-    if(location_id === null || location_name ===null){
+    if (location_id === null || location_name === null) {
       onRequestLocation();
     }
- 
+
+
+    //Fire 3 Promises : 
+    //1) Check if city exist on favorites inside localStorage
+    //2) Fetch city by id 
+    //3) Fetch forecasts by id
+
     onRequestCityById({ id: id, name: name })
 
 
   }
 
-  componentDidUpdate(){
-
-  }
 
 
 
@@ -99,7 +103,7 @@ const mapDispatchToProps = (dispatch) => {
 
     onRequestCityById: (citydetails) => dispatch(requestCityById(citydetails)),
     getFavoriteCityById: (id) => dispatch(getFavoriteCityById(id)),
-    onRequestLocation:()=>dispatch(requestLocation())
+    onRequestLocation: () => dispatch(requestLocation())
   }
 }
 

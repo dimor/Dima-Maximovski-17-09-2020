@@ -1,9 +1,21 @@
 import classes from './ErrorBoundary.module.css';
 import React ,{Component} from 'react';
-
-
+import { connect } from 'react-redux';
+import {throwError} from '../../redux/home/actions'
 class ErrorBoundary  extends Component{
 
+
+
+ 
+    componentDidCatch(error, errorInfo) {
+
+      const {onThrowError} = this.props;
+
+      onThrowError(error);
+     
+ 
+    }
+  
       
 
         render() {
@@ -24,4 +36,22 @@ class ErrorBoundary  extends Component{
 
 }
 
-export default ErrorBoundary;
+
+const mapStateToProps = (state) => {
+
+  return {
+    error: state.home.error
+  }
+}
+
+const mapDispatchToProps = (dispatch) => {
+
+  return {
+
+    onThrowErrorHome: (error) => dispatch(throwError(error))
+  }
+}
+
+
+
+export default connect(mapStateToProps,mapDispatchToProps)(ErrorBoundary);
