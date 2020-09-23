@@ -1,0 +1,48 @@
+.Home{
+    
+    width: 70%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 16px 16px;
+    margin: 16px auto;
+    border-color:inherit;
+    color:inherit;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.Home p~div div{
+    border:1px solid black;
+}
+
+
+
+.Home .Title{
+
+    text-align: center;
+    font-size: 2em ;
+
+
+}
+
+.FirstRow{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 0px 32px;
+
+}
+
+
+@media (min-width:499px){
+
+.FirstRow{
+
+    flex-direction:row;
+
+}
+}

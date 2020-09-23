@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.Wrap{
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 70%;
+    
+  }
+
+.Search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.SearchTerm {
+  width: 100%;
+  border: 3px solid #2eac6d;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.SearchTerm:focus{
+  color: #00B4CC;
+}
+
+.SearchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #2eac6d;
+  background: #2eac6d;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.SearchButton img {
+
+    width: 16px;
+    height: 16px;
+    margin-right:2px;
+    margin-top:6px;
+  }
+  
+
+  ul.Suggestions {
+    list-style:none;
+    padding:0;
+    margin:0;
+    width:70%;
+    margin-left:auto;
+    margin-right: auto;
+    position: absolute;
+    left:0;
+    right:0;
+    border-left: 1px solid lightgray;
+    border-right:1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-radius: 5px;
+  }
+
+  .Suggestions li{
+    display:block;
+    text-decoration:none; 
+    color:#1f5350;
+    font-size:1em;
+    background-color:#e7ffee;
+    padding:4px;
+}
+
+ul.Suggestions li:hover{
+  color:#000000;
+  background:hsl(160, 97%, 42%);
+}
+
+
+.None{
+   
+  list-style:none;
+  padding:0;
+  margin:0;
+  width:70%;
+  margin-left:auto;
+  margin-right: auto;
+  position: absolute;
+  left:0;
+  right:0;
+  border-left: 1px solid #00B4CC;
+  border-right:1px solid #00B4CC;
+  border-bottom: 1px solid #00B4CC;
+  border-radius: 5px;
+  background-color:#e7ffee;
+  font-size: 1em;
+}
+
+.None em{
+  font-size: .8em;
+}
+
+
+@media (min-width:499px){
+  .Wrap{
+      width: 30%;
+  }
+  ul.Suggestions {
+    width: 30%;
+  }
+
+  .None{
+    width: 30%;
+  }
+
+}

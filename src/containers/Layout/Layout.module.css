@@ -1,0 +1,28 @@
+
+.DarkMode {
+}
+
+.DarkMode main{
+    color:white;
+    border-color: white;
+}
+
+.DarkMode main div p~div div  {
+    color:white;
+    border:1px solid white;
+    text-align: center;
+}
+
+.DarkMode header  {
+    background-color:#47555e;
+}
+.DarkMode header nav ul button {
+    background-color: #47555e;
+    
+}
+
+.DarkMode main>span div {
+    border:1px solid white;
+}
+
+

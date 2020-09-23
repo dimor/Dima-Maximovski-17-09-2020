@@ -1,0 +1,72 @@
+.FavoriteButton{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius:5px;
+    height: 50px;
+    padding: 16px;
+    margin-top:1.5em;
+    flex-basis: 200px;
+
+}
+
+.FavoriteButton button{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .7em;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 2rem;
+  
+}
+
+
+
+
+
+.FavoriteButton button:hover{
+    background-color: #4CAF50;
+    color: white;
+    }
+
+
+    .FavoriteButton button:focus{
+        outline:none;
+      
+
+        }
+    
+
+
+
+
+
+.FavoriteButton p{
+
+    font-size: 1em;
+    margin-left:16px;
+
+}
+
+
+@media (min-width:499px){
+    .FavoriteButton{
+
+        margin-top:0;
+
+    
+    }
+    
+}
+
+
+

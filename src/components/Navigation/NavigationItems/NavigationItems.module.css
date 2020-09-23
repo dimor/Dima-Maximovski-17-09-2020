@@ -1,0 +1,91 @@
+.NavigationItems{
+
+    margin:0;
+    padding:0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-flow:column;
+    height: 100%;
+    
+}
+
+.Settings {
+
+    margin:16px;
+    
+}
+
+
+
+.Settings div{
+    position: absolute;
+    right:120px;
+    display:none;
+    flex-direction: column;
+    width: 150px;
+    height: auto;
+    border: lightgreen 2px solid;
+
+}
+
+.set{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+.set button{
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100%;
+    background-color: #2eac6d;
+    width: 50%;
+    box-sizing: border-box;
+    border:0px;
+    
+}
+
+.set button:hover{
+    color:black;
+    background-color: grey;
+}
+
+.set button:focus{
+
+    outline: none;
+}
+
+
+.degree{
+    display: none;
+
+
+}
+
+
+
+
+
+
+@media (max-width:500){
+
+}
+
+
+@media (min-width:500px){
+    .NavigationItems{
+        flex-flow:row;
+    }
+
+    .degree{
+        position: absolute;
+        color:white;
+        top:0;
+        margin-left:14px;
+        font-weight: 700;
+        display: block;
+    }
+}
